@@ -1,0 +1,152 @@
+/*
+ * Richard Davis
+ * CSCI 4000
+ * 03 April 2016
+ * Assignment 3
+ */
+
+/* stylings for html and php documents */
+header {
+  background-color: #fbe5bc;
+  border: 2px solid #f9d490;
+  width: 45%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0em;
+  padding: 1em;
+}
+h1 {
+  font: 225% Georgia, serif;
+  text-align: center;
+  color: #71dac0;
+}
+body {
+  background-color: white;
+}
+#main {
+  background-color: #fef9f0;
+  border: 2px solid #f9d490;
+  border-top: none;
+  width: 45%;
+  height: 100%;
+  margin-top: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  padding-bottom: 20%;
+}
+nav {
+  float: left;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+nav ul li a {
+  font: 125% Georgia, serif;
+}
+#display {
+  float: left;
+  margin-left: 4em;
+}
+h2 {
+  font: 155% Georgia, serif;
+  color: #0f0a01;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+h3 {
+  font: 145% Georgia, serif;
+  color: #71dac0;
+}
+p {
+  font: 105% Arial, Helvetica, sans-serif;
+  color: #0f0a01;
+}
+label {
+  color: #71dac0;
+  font: 105% Georgia, serif;
+  width: 10em;
+  padding-right: 1em;
+  float: left;
+}
+input[type="text"] {
+  font: 110% Georgia, serif;
+  color: #0f0a01;
+  float: left;
+  width: 10em;
+  margin-bottom: .5em;
+}
+input[type="submit"] {
+  font: 100% Arial, Helvetica, sans-serif;
+  color: #0f0a01;
+  float: left;
+  margin-bottom: .5em;
+  background-color: #fbe5bc;
+  border: 1px solid #f9d490;
+  border-radius: 4px;
+}
+.s_delete {
+  width: 100%;
+  margin-bottom: .5em;
+  margin-top: .5em;
+  background-color: #fbe5bc;
+  border: 1px solid #f9d490;
+  border-radius: 4px;
+}
+br {
+  clear: left;
+}
+a {
+  font: 110% Georgia, serif;
+  color: #71dac0;
+}
+table {
+  border-collapse: collapse;
+  width: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  font: 105% Arial, Helvetica, sans-serif;
+  color: #0f0a01;
+}
+tr:first-child {
+  background-color: #fbe5bc;
+  height: 3em;
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+table, tr, th, td {
+  border: 1px solid #f9d490;
+}
+th {
+  font: 110% Georgia, serif;
+  color: #71dac0;
+}
+.s_id {
+  text-align: center;
+}
+.s_fname {
+  text-align: right;
+  padding: .5em;
+}
+.s_lname {
+  text-align: right;
+  padding: .5em;
+}
+.s_gender {
+  text-align: right;
+  padding: .5em;
+}
+footer {
+  clear: both;
+  background-color: #fbe5bc;
+  border: 2px solid #f9d490;
+  border-top: 0px;
+  width: 45%;
+  margin-top: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
